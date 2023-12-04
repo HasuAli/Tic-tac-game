@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Tic Tac Game </h1>
+    <div clas="container" id="Userinput" >
+        <label for="firstuser"><h3>First User</h3></label>
+        <input type="text" placeholder="Enter First User Choice " id="firstUser">
+        <label for="firstuser"><h3>Second User</h3></label>
+        <input type="text" placeholder="Enter Second User Choice " id="secondUser">
+        <button onClick="startGame1()"> Start  </button>
+    </div>
+    <div>
+        
+    <table id="game" style="display: none;" >
+        <tr>
+            <td  onclick="check(this)"></td>
+            <td  onclick="check(this)"></td>
+            <td  onclick="check(this)"></td>
+        </tr>
+        <tr>
+            <td  onclick="check(this)"></td>
+            <td  onclick="check(this)"></td>
+            <td  onclick="check(this)"></td>
+        </tr>
+        <tr>
+            <td  onclick="check(this)"></td>
+            <td  onclick="check(this)"></td>
+            <td  onclick="check(this)"></td>
+        </tr>
+    </table>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
